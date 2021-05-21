@@ -14,7 +14,7 @@ namespace PatronesCsharp
         private static Estudiante instancia; //Instancia única
         //Constructor por defecto privado
         private Estudiante() {
-            this.Nombre = "50k registros";
+            AsignarNombre();
         } 
         public static Estudiante ObtenerInstancia()
         {
@@ -22,5 +22,10 @@ namespace PatronesCsharp
 
             return instancia;
        }
+
+        private void AsignarNombre()
+        {
+            this.Nombre = "50k registros";
+        }
     }
 }
