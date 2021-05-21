@@ -27,5 +27,10 @@ namespace PatronesCsharp
         {
             this.Nombre = "50k registros";
         }
+
+        ~Estudiante() // destructor
+        {
+            //
+        }
     }
 }
