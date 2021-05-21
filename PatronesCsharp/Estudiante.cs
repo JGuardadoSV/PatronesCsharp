@@ -21,6 +21,6 @@ namespace PatronesCsharp
             if (instancia==null) instancia = new Estudiante(); // ya no será nulo
 
             return instancia;
-        }
+       }
     }
 }

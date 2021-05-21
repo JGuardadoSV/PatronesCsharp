@@ -15,7 +15,7 @@ namespace PatronesCsharp
             Estudiante e2 = Estudiante.ObtenerInstancia();
             Estudiante e3 = Estudiante.ObtenerInstancia();
 
-            if (e1==e2)
+            if (e2==e3)
                 Console.WriteLine("Misma instancia");
             else
                 Console.WriteLine("Diferente instancia");
