@@ -15,13 +15,13 @@ namespace PatronesCsharp
         //Constructor por defecto privado
         private Estudiante() {
             AsignarNombre();
-        } 
+        }
         public static Estudiante ObtenerInstancia()
         {
-            if (instancia==null) instancia = new Estudiante(); // ya no será nulo
+            if (instancia == null) instancia = new Estudiante(); // ya no será nulo
 
             return instancia;
-       }
+        }
 
         private void AsignarNombre()
         {
@@ -33,4 +33,11 @@ namespace PatronesCsharp
             //
         }
     }
+
+
+    public class Ejemplo
+    {
+
+    }
+
 }
